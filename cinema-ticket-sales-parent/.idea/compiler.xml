@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cinema-controller" />
         <module name="cinema-dao" />
+        <module name="cinema-VO" />
         <module name="cinema-entity" />
         <module name="cinema-config" />
         <module name="cinema-service" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cinema-VO" options="-parameters" />
       <module name="cinema-config" options="-parameters" />
       <module name="cinema-controller" options="-parameters" />
       <module name="cinema-dao" options="-parameters" />

@@ -20,6 +20,7 @@
         <module>cinema-service</module>
         <module>cinema-controller</module>
         <module>cinema-config</module>
+        <module>cinema-VO</module>
     </modules>
 
     <properties>
