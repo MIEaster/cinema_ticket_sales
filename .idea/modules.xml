@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cinema-VO/cinema-VO.iml" filepath="$PROJECT_DIR$/cinema-VO/cinema-VO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinema-config/cinema-config.iml" filepath="$PROJECT_DIR$/cinema-config/cinema-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinema-controller/cinema-controller.iml" filepath="$PROJECT_DIR$/cinema-controller/cinema-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinema-dao/cinema-dao.iml" filepath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinema-entity/cinema-entity.iml" filepath="$PROJECT_DIR$/cinema-entity/cinema-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinema-service/cinema-service.iml" filepath="$PROJECT_DIR$/cinema-service/cinema-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinema-ticket-sales-parent.iml" filepath="$PROJECT_DIR$/cinema-ticket-sales-parent.iml" />
+    </modules>
+  </component>
+</project>
