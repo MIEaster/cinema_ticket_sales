@@ -13,5 +13,4 @@ public class CinemaAddress {
     private String address;
     private String cinemaPhone;
     private Integer cinemaStatus;
-    private  Integer a;
 }
