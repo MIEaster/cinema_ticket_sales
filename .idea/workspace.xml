@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="重新修改了数据库，修改实体类">
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/ActorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/AdministratorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CinemaAdressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CinemaRoomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/DiscussDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/MovieDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/OrderDetailsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/SchedulingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/SeatDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/TicketsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/TypeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/richflowers/dao/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ljq" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring-boot/cj/springboot-tutorials-parent-165" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cinema-dao/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +71,23 @@
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.27748692" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -79,6 +107,7 @@
       <workItem from="1647655504315" duration="2197000" />
       <workItem from="1647658286607" duration="2446000" />
       <workItem from="1647777862216" duration="12000" />
+      <workItem from="1647778302156" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
