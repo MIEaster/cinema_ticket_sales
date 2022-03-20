@@ -1,7 +1,6 @@
 package com.dao;
 
 import com.entity.Actors;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
