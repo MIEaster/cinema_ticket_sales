@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="重新修改了数据库，修改实体类">
-      <change afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Actors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Tickets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Discuss.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Discuss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/OrderDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/RemainingTickets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Scheduling.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Scheduling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Seats.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Seats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/TicketRefund.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/TotalSales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/richflowers/dao/Demo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +36,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26a8IUamsyR1HKGDj6EqMivtJkR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -72,19 +61,6 @@
     <property name="project.structure.side.proportion" value="0.27748692" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\MIEaster\AppData\Roaming\Subversion</configuration>
@@ -102,6 +78,7 @@
       <workItem from="1647655416990" duration="73000" />
       <workItem from="1647655504315" duration="2197000" />
       <workItem from="1647658286607" duration="2446000" />
+      <workItem from="1647777862216" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
