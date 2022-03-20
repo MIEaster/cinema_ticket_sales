@@ -10,11 +10,14 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Scheduling {
-    private Integer schedulingId;
-    private Integer roomId;
+public class Tickets {
+    private Integer remainingId;
     private String movieName;
-    private Date startTime;
-    private Date endTime;
+    private Date screeningTime;
+    private BigDecimal movieDuration;
+    private String cinemaName;
+    private String playbackRoom;
     private BigDecimal fare;
+    private Integer remainingSeats;
+    private Integer ticketsStatus;
 }

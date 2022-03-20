@@ -11,18 +11,15 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderDetails {
-
-  private Integer detailsId;
-  private String customerName;
-  private String movieName;
-  private Date screeningTime;
-  private String cinemaName;
-  private String playbackRoom;
-  private String seats;
-  private BigDecimal fare;
-  private BigDecimal commission;
-  private Date ticketingTime;
-  private Date extractionTime;
-
-
+    private Integer detailsId;
+    private String customerName;
+    private String movieName;
+    private Date screeningTime;
+    private String cinemaName;
+    private String playbackRoom;
+    private String seats;
+    private BigDecimal fare;
+    private BigDecimal commission;
+    private Date ticketingTime;
+    private Date extractionTime;
 }

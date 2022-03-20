@@ -8,8 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Type {
-
-  private Integer typeId;
-  private String typeName;
-
+    private Integer typeId;
+    private String typeName;
 }

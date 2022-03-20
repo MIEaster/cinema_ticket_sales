@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加了忽略文件">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="重新修改了数据库，修改实体类">
+      <change afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Actors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Tickets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/CinemaRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Discuss.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Discuss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/OrderDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/RemainingTickets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Scheduling.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Scheduling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Seats.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Seats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/TicketRefund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/TotalSales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-entity/src/main/java/com/entity/Type.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +73,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
