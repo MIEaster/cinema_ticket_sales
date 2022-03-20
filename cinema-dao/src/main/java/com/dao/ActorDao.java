@@ -10,5 +10,4 @@ public interface ActorDao {
     void Delete(int id);
     Actors actor(int id);
     List<Actors> allActor ();
-    aa;
 }
