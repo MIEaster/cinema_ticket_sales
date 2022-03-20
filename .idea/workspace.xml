@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="重新修改了数据库，修改实体类">
+    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加一些接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/richflowers/dao/Demo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1647655416990" duration="73000" />
       <workItem from="1647655504315" duration="2197000" />
       <workItem from="1647658286607" duration="2446000" />
-      <workItem from="1647777862216" duration="12000" />
+      <workItem from="1647777862216" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647675690537</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加一些接口">
+      <created>1647777889091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647777889091</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +151,7 @@
     <MESSAGE value="创建基础项目结构" />
     <MESSAGE value="qu diao b" />
     <MESSAGE value="添加了忽略文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了忽略文件" />
+    <MESSAGE value="添加一些接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一些接口" />
   </component>
 </project>
