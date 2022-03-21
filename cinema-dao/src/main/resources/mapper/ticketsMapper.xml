@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.TicketsDao">
+    <insert id="addTicket">
+        INSERT INTO tickets(movie_name, screening_time, movie_duration, cinema_name, playback_room, fare, remaining_seats,tickets_status)
+        VALUES(#{ticketRefund.movieName},#{ticketRefund.screeningTime},
+               #{ticketRefund.movieDuration},#{ticketRefund.cinemaName},
+               #{ticketRefund.playbackRoom},#{ticketRefund.fare},
+               #{ticketRefund.remainingSeats},#{ticketRefund.ticketsStatus},)
+    </insert>
+    <delete id="delete">
+        delete from tickets where remaining_id=#{id}
+    </delete>
+    <select id="all" resultType="com.entity.Tickets">
+        select * from tickets
+    </select>
+</mapper>

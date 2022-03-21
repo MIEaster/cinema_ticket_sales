@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加错误的东西">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/seatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/ticketsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/typeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cecbd3de-1717-46ce-9785-972fc6f44dc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cecbd3de-1717-46ce-9785-972fc6f44dc8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/ActorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/ActorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/A.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +66,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
