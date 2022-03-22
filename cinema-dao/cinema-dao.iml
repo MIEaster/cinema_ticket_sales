@@ -24,6 +24,10 @@
     <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:5.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:5.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:4.2" level="project" />
     <orderEntry type="module" module-name="cinema-entity" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2" level="project" />
