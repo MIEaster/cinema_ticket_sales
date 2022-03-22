@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.CinemaRoomDao">
+     <insert id="addRoom">
+     INSERT INTO cinema_room (cinema_id, playback_room, room_status, total_seats)
+     VALUES (#{cinemaId}, #{playbackRoom}, #{roomStatus}, #{totalSeats}),
+     </insert>
+
+    <delete id="delete">
+    DELETE FROM cinema_room WHERE room_id = #{id}
+    </delete>
+
+    <select id="rooms" resultType="com.entity.CinemaRoom">
+     select * from cinema_room
+    </select>
+
+    <select id="room" resultType="com.entity.CinemaRoom">
+        select *from cinema_room where room_id=#{id}
+    </select>
+
+    <update id="updateRoom" parameterType="com.entity.CinemaRoom">
+        update cinema_room
+        <trim prefix="set" suffixOverrides=",">
+        <if test="cinemaId!=null">cinema_id=#{cinemaId},</if>
+        <if test="playbackRoom!=null">playback_room=#{playbackRoom},</if>
+        <if test="roomStatus!=null">room_status=#{roomStatus},</if>
+        <if test="totalSeats!=null">total_seats=#{totalSeats},</if>
+        </trim>
+        where room_id=#{roomId}
+
+--         update cinema_room set cinema_id=#{cinemaId},playback_room=#{playbackRoom}
+--         ,room_status=#{roomStatus},total_seats=#{totalSeats}
+--         where room_id=#{roomId}
+    </update>
+</mapper>

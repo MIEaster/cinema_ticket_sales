@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.OrderDetailsDao">
+    <select id="getById" resultType="com.entity.OrderDetails">
+        select * from order_details where details_id = #{detailsId}
+    </select>
+
+    <delete id="delete">
+        delete from order_details where details_id = #{detailsId}
+    </delete>
+
+    <select id="all" resultType="com.entity.OrderDetails">
+        select * from order_details
+    </select>
+
+    <insert id="addOrder">
+        insert into order_details(customer_name,
+                                  movie_name,
+                                  screening_time,
+                                  cinema_name,
+                                  playback_room,
+                                  seats,
+                                  fare,
+                                  Commission,
+                                  ticketing_time,
+                                  extraction_time)
+                            values (
+                                    #{customerName},
+                                    #{movieName},
+                                    #{screeningTime},
+                                    #{cinemaName},
+                                    #{playbackRoom},
+                                    #{seats},
+                                    #{fare},
+                                    #{commission},
+                                    #{ticketingTime},
+                                    #{extractionTime}
+                                   )
+    </insert>
+
+</mapper>
