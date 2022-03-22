@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.DiscussDao">
+
+    <select id="all" resultType="com.entity.Discuss">
+        select *from discuss
+    </select>
+
+    <delete id="delete">
+        delete from discuss where discuss_id=#{id}
+    </delete>
+
+    <insert id="add">
+       INSERT INTO discuss(customer_id, movie_id, discuss_content, create_date)
+       VALUES (#{customerId}, #{movieId}, #{discussContent}, #{createDate});
+    </insert>
+</mapper>

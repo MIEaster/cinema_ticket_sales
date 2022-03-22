@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.SchedulingDao">
+    <select id="getById" resultType="com.entity.Scheduling">
+        select * from scheduling where scheduling_id = #{schedulingId}
+    </select>
+
+    <select id="all" resultType="com.entity.Scheduling">
+        select * from scheduling
+    </select>
+
+    <update id="update" parameterType="com.entity.Scheduling">
+        update scheduling
+        <set>
+            <if test="roomId != null">
+                room_id = #{roomId},
+            </if>
+            <if test="movieName != null">
+                movie_name = #{movieName},
+            </if>
+            <if test="startTime != null">
+                start_time = #{startTime},
+            </if>
+            <if test="endTime != null">
+                end_time = #{endTime},
+            </if>
+            <if test="fare != null">
+                fare = #{fare}
+            </if>
+        </set>
+        where
+        scheduling_id = #{schedulingId}
+    </update>
+
+</mapper>

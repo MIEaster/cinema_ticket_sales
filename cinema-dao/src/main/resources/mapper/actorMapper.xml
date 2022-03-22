@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ActorDao">
+    <select id="allActor" resultType="com.entity.Actors">
+        select  * from actors
+    </select>
+    <select id="actor" resultType="com.entity.Actors">
+        select  * from actors where actors_id = #{id}
+    </select>
+    <delete id="Delete">
+        delete  from actors where actors_id = #{id}
+    </delete>
+    <insert id="addActor">
+        insert into actors(actors_name, actors_birthday, actors_introduction, actors_photo) VALUES
+        (#{actorsName},#{actorsBirthday},#{actorsIntroduction},#{actorsPhoto})
+    </insert>
+    <update id="updateActor">
+        update  actors
+        <set>
+            1=1
+            <if test="actorsName !=null">
+              and  actors_name = #{actorsName}
+            </if>
+            <if test="actorsBirthday != null">
+              and  actors_birthday =#{actorsBirthday}
+            </if>
+            <if test="actorsIntroduction != null">
+            and  actors_introduction = #{actorsIntroduction}
+            </if>
+            <if test="actorsPhoto !=null">
+                actors_photo = #{actorsPhoto}
+            </if>
+        </set>
+        where actors_id = #{actorsId}
+    </update>
+</mapper>

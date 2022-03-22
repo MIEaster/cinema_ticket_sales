@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.CustomerDao">
+     <insert id="addUser">
+         INSERT INTO customer(customer_name, customer_password, customer_phone, customer_email, customer_status)
+         VALUES (#{customerName}, #{customerPassword}, #{customerPhone}, #{customerEmail}, #{customerStatus})
+     </insert>
+
+    <delete id="delete">
+        delete from customer where customer_id=#{id}
+    </delete>
+
+    <select id="all" resultType="com.entity.Customer">
+        select * from customer
+    </select>
+
+    <select id="getCustomerById" resultType="com.entity.Customer">
+        select * from customer where customer_id=#{id}
+    </select>
+
+    <update id="updateCustomer" parameterType="com.entity.Customer">
+      update customer
+      <trim prefix="set" suffixOverrides=",">
+       <if test="customerName!=null">customer_name=#{customerName},</if>
+       <if test="customerPassword!=null">customer_password=#{customerPassword},</if>
+       <if test="customerPhone!=null">customer_phone=#{customerPhone},</if>
+       <if test="customerEmail!=null">customer_eamil=#{customerEmail},</if>
+       <if test="customerStatus!=null">customer_status=#{customerStatus},</if>
+       <if test="createTime!=null">create_time=#{createTime},</if>
+       <if test="updateTime!=null">update_time=#{updateTime},</if>
+      </trim>
+
+--         update customer set customer_name=#{customerName},
+--         customer_password=#{customerPassword},customer_phone=#{customerPhone}
+--         ,customer_email=#{customerEmail},customer_status=#{customerStatus},
+--         create_time=#{createTime},update_time=#{updateTime}
+--         where customer_id=#{customerId}
+    </update>
+
+</mapper>
