@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加了mapper.xml文件" />
+    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加错误的东西">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/ActorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/ActorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/A.TXT" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +45,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -90,7 +94,6 @@
       <workItem from="1647658286607" duration="2446000" />
       <workItem from="1647777862216" duration="659000" />
       <workItem from="1647778575374" duration="113000" />
-      <workItem from="1647909459573" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
@@ -176,35 +179,7 @@
       <option name="project" value="LOCAL" />
       <updated>1647778660751</updated>
     </task>
-    <task id="LOCAL-00013" summary="添加了mapper.xml文件">
-      <created>1647866583445</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1647866583445</updated>
-    </task>
-    <task id="LOCAL-00014" summary="添加了mapper.xml文件">
-      <created>1647866738224</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1647866738224</updated>
-    </task>
-    <task id="LOCAL-00015" summary="添加了mapper.xml文件">
-      <created>1647867352160</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1647867352161</updated>
-    </task>
-    <task id="LOCAL-00016" summary="添加了mapper.xml文件">
-      <created>1647909482621</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1647909482621</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,19 +190,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="ljq" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -243,7 +206,6 @@
     <MESSAGE value="添加一些接口" />
     <MESSAGE value="去掉a" />
     <MESSAGE value="修改了一下接口" />
-    <MESSAGE value="添加了mapper.xml文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了mapper.xml文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了一下接口" />
   </component>
 </project>
