@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加错误的东西">
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/SeatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/TicketsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/SeatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/TicketsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/TypeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/SeatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/SeatDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/cinema-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/cinema-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/Demo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +68,21 @@
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.27748692" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -164,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647778660751</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加错误的东西">
+      <created>1648431150822</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648431150822</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +222,7 @@
     <MESSAGE value="添加一些接口" />
     <MESSAGE value="去掉a" />
     <MESSAGE value="修改了一下接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了一下接口" />
+    <MESSAGE value="添加错误的东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加错误的东西" />
   </component>
 </project>
