@@ -4,7 +4,7 @@ import com.entity.CinemaAddress;
 
 import java.util.List;
 
-public interface CinemaAdressDao {
+public interface CinemaAddressDao {
     int add(CinemaAddress address);
     boolean delete(int id);
     void update(CinemaAddress address);
