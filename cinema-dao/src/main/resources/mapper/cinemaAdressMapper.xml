@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dao.CinemaAdressDao">
+<mapper namespace="com.dao.CinemaAddressDao">
     <insert id="add">
         insert into cinema_address (cinema_name, address, cinema_phone, cinema_status)
         values (#{cinemaName},#{address},#{cinemaePhone},#{cinemaStatus});
