@@ -29,7 +29,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="mapper.xml文件">
-      <change beforePath="$PROJECT_DIR$/cinema-VO/src/main/resources/A.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-VO/src/main/resources/A.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/CinemaRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/DisscussService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/impl/CinemaRoomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/impl/DisscussServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-VO/src/main/java/com/richflowers/VO/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-VO/src/main/java/com/richflowers/VO/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/actorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/actorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/cinema-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/cinema-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/richflowers/service/Demo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +53,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -109,10 +124,42 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.27748692" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.richflowers.VO.Demo" />
+      <module name="cinema-VO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.richflowers.VO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -136,7 +183,9 @@
       <workItem from="1647909459573" duration="628000" />
       <workItem from="1648006538646" duration="166000" />
       <workItem from="1648006714857" duration="61000" />
-      <workItem from="1648018702933" duration="471000" />
+      <workItem from="1648018702933" duration="7425000" />
+      <workItem from="1648173492582" duration="2367000" />
+      <workItem from="1648427448951" duration="6417000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
@@ -285,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648018841169</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="mapper.xml文件">
+      <created>1648019365134</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648019365134</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,9 +385,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="mapper.xml文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1648019051783">
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1648436548998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1648019051783" />
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1648436548998" />
+    <state width="1322" height="172" key="GridCell.Tab.0.bottom" timestamp="1648125601841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1648125601841" />
+    <state width="1322" height="172" key="GridCell.Tab.0.center" timestamp="1648125601841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1648125601841" />
+    <state width="1322" height="172" key="GridCell.Tab.0.left" timestamp="1648125601840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1648125601840" />
+    <state width="1322" height="172" key="GridCell.Tab.0.right" timestamp="1648125601841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1648125601841" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1648019377084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1648019377084" />
+    <state x="57" y="0" key="new project wizard" timestamp="1648428121847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1648428121847" />
   </component>
 </project>

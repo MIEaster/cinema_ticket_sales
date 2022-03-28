@@ -1,10 +1,10 @@
-package com.dao;
+package com.richflowers.service;
 
 import com.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDao {
+public interface CustomerService {
     int addUser(Customer customer);
     boolean delete(int id);
     List<Customer> all();
