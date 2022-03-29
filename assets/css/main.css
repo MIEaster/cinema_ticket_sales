@@ -1414,7 +1414,7 @@ input[type="submit"] {
     width: calc(100% - 10px);
     height: 2px;
     background: #31d7a9;
-    top: calc(100% + 30px);
+    top: calc(100% + 10px);
     position: absolute;
     content: "";
     -webkit-transform: scaleX(0);
@@ -1539,7 +1539,7 @@ input[type="submit"] {
 
 .header-section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.102);
-  padding: 21px 0;
+  padding: 0px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -3429,7 +3429,7 @@ input[type="submit"] {
 .ticket-tab-menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
   margin-bottom: -10px;
 }
 
