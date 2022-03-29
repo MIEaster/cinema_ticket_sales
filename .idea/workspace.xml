@@ -4,47 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加service文件及依赖">
-      <change afterPath="$PROJECT_DIR$/cinema-VO/src/main/java/com/VO/request/AddUserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-config/src/main/java/com/MyRedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-controller/src/main/java/com/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-controller/src/main/java/com/util/EmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-controller/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/exception/SmsCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/SmsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" afterDir="false" />
+    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加service">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-VO/src/main/java/com/VO/ResponeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-VO/src/main/java/com/VO/ResponeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-config/cinema-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-config/cinema-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-config/src/main/java/com/richflowers/config/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-config/src/main/resources/A.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-controller/cinema-controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-controller/cinema-controller.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-controller/src/main/resources/A.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/customerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/customerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinema-service/cinema-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/cinema-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/CustomerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +27,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ljq" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -95,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cinema-VO/src/main/java/com/VO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring-boot/cj/springboot-tutorials-parent-165" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,29 +63,6 @@
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.27748692" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\期末项目\cinema_fe\cinema_ticket_sales\cinema-VO\src\main\java\com\VO" />
-      <recent name="E:\期末项目\cinema_fe\cinema_ticket_sales\cinema-service\src\main\java\com\service" />
-      <recent name="E:\期末项目\cinema_fe\cinema_ticket_sales\cinema-controller\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.util" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -241,14 +175,7 @@
       <option name="project" value="LOCAL" />
       <updated>1648431150822</updated>
     </task>
-    <task id="LOCAL-00014" summary="添加service文件及依赖">
-      <created>1648514254164</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1648514254164</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +203,6 @@
     <MESSAGE value="去掉a" />
     <MESSAGE value="修改了一下接口" />
     <MESSAGE value="添加错误的东西" />
-    <MESSAGE value="添加service文件及依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加service文件及依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加错误的东西" />
   </component>
 </project>

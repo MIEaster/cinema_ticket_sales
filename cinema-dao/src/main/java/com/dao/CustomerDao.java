@@ -10,5 +10,4 @@ public interface CustomerDao {
     List<Customer> all();
     Customer getCustomerById(int id);
     int updateCustomer(Customer customer);
-    Customer getEmail(String customerEmail);
 }
