@@ -39,4 +39,7 @@
 --         where customer_id=#{customerId}
     </update>
 
+    <select id="getEmail" resultType="com.entity.Customer">
+        select customer_name from customer where customer_email=#{customerEmail}
+    </select>
 </mapper>

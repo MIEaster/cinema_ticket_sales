@@ -38,4 +38,9 @@ public class CustomerServiceImpl implements CustomerService {
     public int updateCustomer(Customer customer) {
         return dao.updateCustomer(customer);
     }
+
+    @Override
+    public Customer getEmail(String customerEmail) {
+        return null;
+    }
 }
