@@ -1,13 +1,4 @@
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/demo
-    username: root
-    password: root
-mybatis:
- mapper-locations: classpath*:mapper/*.xml
- configuration:
-  map-underscore-to-camel-case: true
-  log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   #Redis
   redis:
     database: 0
@@ -33,7 +24,3 @@ mybatis:
         default-requeue-rejected: true
     publisher-confirm-type: correlated
     publisher-returns: true
-
-pagehelper:
-  supportMethodsArguments: true
-  helperDialect: mysql
