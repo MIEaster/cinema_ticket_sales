@@ -1,7 +1,6 @@
 package com.controller;
 
 import com.VO.ResponeVO;
-import com.VO.request.AddUserVO;
 import com.entity.Customer;
 import com.service.CustomerService;
 import com.service.SmsService;
@@ -32,22 +31,22 @@ public class UserController {
 
     @RequestMapping("/add")
     @ResponseBody
-    public ResponeVO adduser(@RequestBody AddUserVO vo, String code){
+    public ResponeVO adduser(@RequestBody Customer customer, String code){
         boolean validCode;
         System.out.println(code);
-        System.out.println(vo);
+        System.out.println(customer);
         validCode = smsService.checkCode(code);
         System.out.println(validCode);
         if(validCode){
-            Customer email = userService.getEmail(vo.getUserEmail());
+            Customer email = userService.getEmail(customer.getCustomerEmail());
             if(email==null){
-                boolean b = userService.insertUser(vo);
-                return new ResponseVO(200,"ok",b);
+                 int i = userService.addUser(customer);
+                return new ResponeVO(200,"ok",i);
             }else {
-                return new ResponseVO(404,"error","已存在用户："+email);
+                return new ResponeVO(404,"error","已存在用户："+email);
             }
         }else {
-            return new ResponseVO(404,"error","重新获取验证码");
+            return new ResponeVO(404,"error","重新获取验证码");
         }
 
     }

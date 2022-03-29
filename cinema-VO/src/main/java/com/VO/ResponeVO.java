@@ -1,6 +1,8 @@
 package com.VO;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author MIEaster
@@ -8,7 +10,8 @@ import lombok.Data;
  * @apiNote
  */
 @Data
-
+@AllArgsConstructor
+@NoArgsConstructor
 public class ResponeVO {
     private int id;
     private String msg;

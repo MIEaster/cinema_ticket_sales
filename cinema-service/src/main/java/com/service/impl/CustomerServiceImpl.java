@@ -41,6 +41,6 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Customer getEmail(String customerEmail) {
-        return null;
+        return dao.getEmail(customerEmail);
     }
 }
