@@ -9,5 +9,5 @@ public interface CustomerDao {
     boolean delete(int id);
     List<Customer> all();
     Customer getCustomerById(int id);
-    int updateCustomer(Customer customer);
+    void updateCustomer(Customer customer);
 }
