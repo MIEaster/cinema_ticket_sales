@@ -42,4 +42,7 @@
         select  * from customer where customer_name =#{username} and  customer_password = #{password}
     </select>
 
+    <select id="getEmail" resultType="com.entity.Customer">
+        select customer_name from customer where customer_email=#{customerEmail}
+    </select>
 </mapper>

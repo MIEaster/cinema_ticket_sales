@@ -14,15 +14,6 @@
         <module name="cinema-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cinema-config" target="8" />
-      <module name="cinema-controller" target="8" />
-      <module name="cinema-dao" target="8" />
-      <module name="cinema-entity" target="8" />
-      <module name="cinema-service" target="8" />
-      <module name="cinema-ticket-sales-parent" target="8" />
-      <module name="cinema-VO" target="8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
