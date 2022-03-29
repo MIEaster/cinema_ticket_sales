@@ -38,5 +38,8 @@
 --         create_time=#{createTime},update_time=#{updateTime}
 --         where customer_id=#{customerId}
     </update>
+    <select id="login" resultType="com.entity.Customer">
+        select  * from customer where customer_name =#{username} and  customer_password = #{password}
+    </select>
 
 </mapper>

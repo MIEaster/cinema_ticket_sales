@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加了mapper.xml文件">
+    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="添加剩余service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-VO/src/main/java/com/VO/ResponeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-VO/src/main/java/com/VO/ResponeVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/customerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/customerMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../spring-boot/cj/springboot-tutorials-parent-165" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front/cinema-ticket-sales-front-push-folders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,7 +62,13 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.27748692" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PersonalStudyWorkspace\PROject sixth\cinema-ticket-sales-parent\cinema-service\src\main\java\com\service" />
+      <recent name="E:\PersonalStudyWorkspace\PROject sixth\cinema-ticket-sales-parent\cinema-service\src\main\java\com\service\impl" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -94,6 +103,8 @@
       <workItem from="1647777862216" duration="659000" />
       <workItem from="1647778575374" duration="113000" />
       <workItem from="1647909459573" duration="628000" />
+      <workItem from="1648465929361" duration="579000" />
+      <workItem from="1648513492111" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
@@ -207,7 +218,35 @@
       <option name="project" value="LOCAL" />
       <updated>1647909482621</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="xx">
+      <created>1648431506659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648431506659</updated>
+    </task>
+    <task id="LOCAL-00018" summary="初步完成部分service的实现">
+      <created>1648433127116</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648433127116</updated>
+    </task>
+    <task id="LOCAL-00019" summary="修改CustomerDao 添加部分service">
+      <created>1648437628283</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648437628283</updated>
+    </task>
+    <task id="LOCAL-00020" summary="添加剩余service">
+      <created>1648439482042</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648439482042</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +274,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -247,6 +285,10 @@
     <MESSAGE value="去掉a" />
     <MESSAGE value="修改了一下接口" />
     <MESSAGE value="添加了mapper.xml文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了mapper.xml文件" />
+    <MESSAGE value="xx" />
+    <MESSAGE value="初步完成部分service的实现" />
+    <MESSAGE value="修改CustomerDao 添加部分service" />
+    <MESSAGE value="添加剩余service" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加剩余service" />
   </component>
 </project>
