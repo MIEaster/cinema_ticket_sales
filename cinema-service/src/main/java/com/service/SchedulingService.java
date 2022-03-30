@@ -8,5 +8,7 @@ public interface SchedulingService {
 
     Scheduling getById(int id);
     List<Scheduling> all();
-    void update(Scheduling scheduling);
+    int update(Scheduling scheduling);
+    int deletes(int id);
+    Scheduling add(Scheduling scheduling);
 }

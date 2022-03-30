@@ -4,9 +4,10 @@ import com.dao.SchedulingDao;
 import com.entity.Scheduling;
 import com.service.SchedulingService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class SchedulingServiceImpl implements SchedulingService {
 
     @Autowired
@@ -23,7 +24,17 @@ public class SchedulingServiceImpl implements SchedulingService {
     }
 
     @Override
-    public void update(Scheduling scheduling) {
-        schedulingDao.update(scheduling);
+    public int update(Scheduling scheduling) {
+      return  schedulingDao.update(scheduling);
+    }
+
+    @Override
+    public int deletes(int id) {
+        return schedulingDao.deletes(id);
+    }
+
+    @Override
+    public Scheduling add(Scheduling scheduling) {
+        return schedulingDao.add(scheduling);
     }
 }

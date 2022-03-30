@@ -40,4 +40,39 @@
         select * from movie where movie_id = #{movieId}
     </select>
 
+    <update id="updateMovie">
+        update movie
+        <set>
+            <if test="movieName != null">
+                movie_name=#{movieName}
+            </if>
+            <if test="movieDuration != null">
+                movie_duration=#{movieDuration}
+            </if>
+            <if test="typeName != null">
+                type_name=#{typeName}
+            </if>
+            <if test="director !=null">
+                director=#{director}
+            </if>
+            <if test="screenwriter !=null">
+                screenwriter=#{screenwriter}
+            </if>
+            <if test="actorsName != null">
+                actors_name=#{actorsName}
+            </if>
+            <if test="releaseDate != null">
+                release_date=#{releaseDate}
+            </if>
+            <if test="movieIntroduction != null">
+                movie_introduction=#{movieIntroduction}
+            </if>
+            <if test="poster != null">
+                poster=#{poster}
+            </if>
+
+        </set>
+        where movie_id=#{movieId}
+    </update>
+
 </mapper>

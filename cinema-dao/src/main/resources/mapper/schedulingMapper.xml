@@ -34,5 +34,13 @@
         where
         scheduling_id = #{schedulingId}
     </update>
+    <delete id="deletes">
+        delete from scheduling where scheduling_id=#{id}
+    </delete>
+
+    <insert id="add">
+        INSERT INTO scheduling(room_id, movie_name, start_time, end_time, fare)
+VALUES (#{roomId},#{movieName}, #{startTime}, #{endTime},#{fare})
+    </insert>
 
 </mapper>

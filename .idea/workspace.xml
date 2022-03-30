@@ -28,8 +28,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="mapper.xml文件">
+    <list default="true" id="c1142e0a-583b-44b7-80a3-4d76f5d880ac" name="Changes" comment="完善service模块">
+      <change afterPath="$PROJECT_DIR$/cinema-controller/src/main/java/com/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-controller/src/main/java/com/SchedulingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-VO/src/main/java/com/richflowers/VO/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-controller/cinema-controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-controller/cinema-controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-controller/src/main/java/com/CinemaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-controller/src/main/java/com/CinemaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/cinema-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/MovieDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/SchedulingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/java/com/dao/SchedulingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/movieMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/movieMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/schedulingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-dao/src/main/resources/mapper/schedulingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/cinema-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/cinema-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/SchedulingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/SchedulingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/SchedulingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/service/impl/SchedulingServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +130,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.27748692" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -130,15 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,6 +191,7 @@
       <workItem from="1648018702933" duration="7425000" />
       <workItem from="1648173492582" duration="2367000" />
       <workItem from="1648427448951" duration="6417000" />
+      <workItem from="1648639360778" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="创建基础项目结构">
       <created>1647650901205</created>
@@ -329,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648019365134</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="完善service模块">
+      <created>1648538179148</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648538179148</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +371,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="zcc" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -370,13 +395,14 @@
     <MESSAGE value="修改了一下接口" />
     <MESSAGE value="添加了mapper.xml文件" />
     <MESSAGE value="mapper.xml文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapper.xml文件" />
+    <MESSAGE value="完善service模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善service模块" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1648436548998">
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1648641632080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1648436548998" />
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1648641632080" />
     <state width="1322" height="172" key="GridCell.Tab.0.bottom" timestamp="1648125601841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -393,13 +419,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1648125601841" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1648019377084">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1648553648860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1648019377084" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1648553648860" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1648538185782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1648538185782" />
+    <state x="0" y="0" width="594" height="728" key="find.popup" timestamp="1648639395146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="594" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1648639395146" />
     <state x="57" y="0" key="new project wizard" timestamp="1648428121847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1648428121847" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1648643044947">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1648643044947" />
   </component>
 </project>

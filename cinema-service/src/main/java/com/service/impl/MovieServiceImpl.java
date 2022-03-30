@@ -20,17 +20,22 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    public void addMovie(Movie movie) {
-        movieDao.addMovie(movie);
+    public int addMovie(Movie movie) {
+      return   movieDao.addMovie(movie);
     }
 
     @Override
-    public boolean delete(int id) {
+    public int delete(int id) {
         return movieDao.delete(id);
     }
 
     @Override
     public Movie getByMovieId(int id) {
         return movieDao.getByMovieId(id);
+    }
+
+    @Override
+    public int updateMovie(Movie movie) {
+        return movieDao.updateMovie(movie);
     }
 }
