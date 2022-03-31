@@ -9,3 +9,4 @@ public interface TypeService {
     List<Type> all();
     void addType(Type type);
 }
+

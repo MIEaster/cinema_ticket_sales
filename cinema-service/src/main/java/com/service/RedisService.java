@@ -1,8 +1,7 @@
 package com.service;
 
 public interface RedisService {
+    void  set(String key,Object values);
     Object get(String key);
-
-    void set(String key, Object value);
-    void setEx(String key, Object value,int expire);
+     void delete(String key);
 }

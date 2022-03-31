@@ -32,7 +32,7 @@
     <select id="allAdress" resultType="com.entity.CinemaAddress">
         select  * from cinema_address
     </select>
-    <select id="getById">
+    <select id="getById" resultType="com.entity.CinemaAddress">
         select  * from cinema_address where cinema_id =#{id}
     </select>
 
