@@ -26,5 +26,10 @@ target/
  
 # system ignore
 .DS_Store
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> czf-front/czf
 .vscode/
 Thumbs.db
